@@ -1,0 +1,9 @@
+services:
+  jiahao-stock-168:
+    build: .
+    # ports:
+    #   - "8000:5000"
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data
